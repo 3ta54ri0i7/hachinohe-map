@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_01210ed7d65222e55775f4306bdfe5e2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_01210ed7d65222e55775f4306bdfe5e2" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_01210ed7d65222e55775f4306bdfe5e2 = L.map(
+                "map_01210ed7d65222e55775f4306bdfe5e2",
+                {
+                    center: [40.5, 141.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_306befbfbbdf6cb12b8bbafb791dfd01 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var marker_ac7ddf6521e7fef1291d644265fa0454 = L.marker(
+                [40.5002576, 141.4953421],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_b56f83cabe29d16044bde744259e3b05 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ac7ddf6521e7fef1291d644265fa0454.setIcon(icon_b56f83cabe29d16044bde744259e3b05);
+        
+    
+        var popup_71b300925ab3dad49916b8a1116a6fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09f2d649f9964d2eea8079acacd9e0f4 = $(`<div id="html_09f2d649f9964d2eea8079acacd9e0f4" style="width: 100.0%; height: 100.0%;">独立行政法人国立病院機構八戸病院<br>八戸市吹上三丁目13-1</div>`)[0];
+            popup_71b300925ab3dad49916b8a1116a6fe5.setContent(html_09f2d649f9964d2eea8079acacd9e0f4);
+        
+
+        marker_ac7ddf6521e7fef1291d644265fa0454.bindPopup(popup_71b300925ab3dad49916b8a1116a6fe5)
+        ;
+
+        
+    
+    
+            var marker_b1848f68b7a9ed9b0a95e4dde4538840 = L.marker(
+                [40.5228367, 141.5471201],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_597d9b18ae4421403cc4d5f64a1f2000 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b1848f68b7a9ed9b0a95e4dde4538840.setIcon(icon_597d9b18ae4421403cc4d5f64a1f2000);
+        
+    
+        var popup_ad54fbae7f4554d011051ca1246c4823 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e66a0f6b929ddc2566f8197d2520314 = $(`<div id="html_6e66a0f6b929ddc2566f8197d2520314" style="width: 100.0%; height: 100.0%;">独立行政法人労働者健康安全機構青森労災病院<br>八戸市白銀町南ヶ丘1 35-36</div>`)[0];
+            popup_ad54fbae7f4554d011051ca1246c4823.setContent(html_6e66a0f6b929ddc2566f8197d2520314);
+        
+
+        marker_b1848f68b7a9ed9b0a95e4dde4538840.bindPopup(popup_ad54fbae7f4554d011051ca1246c4823)
+        ;
+
+        
+    
+    
+            var marker_00ba08fd67bb1558f6f8a7c63d64b1f5 = L.marker(
+                [40.4909772, 141.5642263],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_6ccf5be3e5744487d451343b061ce6ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_00ba08fd67bb1558f6f8a7c63d64b1f5.setIcon(icon_6ccf5be3e5744487d451343b061ce6ea);
+        
+    
+        var popup_74dafe945b80ecad8220596e86682117 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_eca44c691558badcfeb62eb20e2cabef = $(`<div id="html_eca44c691558badcfeb62eb20e2cabef" style="width: 100.0%; height: 100.0%;">青森県立はまなす医療療育センター<br>八戸市大字大久保字大塚17-729</div>`)[0];
+            popup_74dafe945b80ecad8220596e86682117.setContent(html_eca44c691558badcfeb62eb20e2cabef);
+        
+
+        marker_00ba08fd67bb1558f6f8a7c63d64b1f5.bindPopup(popup_74dafe945b80ecad8220596e86682117)
+        ;
+
+        
+    
+    
+            var marker_6c1ce090f9efabd2119097ed1bcc8b2f = L.marker(
+                [40.4943317, 141.5101297],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_7b75fcda85902cae369d284001984ae3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6c1ce090f9efabd2119097ed1bcc8b2f.setIcon(icon_7b75fcda85902cae369d284001984ae3);
+        
+    
+        var popup_be5c82a5eb559163097493084ea26aa0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8247e2ab7fc332d96a040bf42f52660 = $(`<div id="html_d8247e2ab7fc332d96a040bf42f52660" style="width: 100.0%; height: 100.0%;">八戸市立市民病院<br>八戸市田向三丁目1番1号 37-38</div>`)[0];
+            popup_be5c82a5eb559163097493084ea26aa0.setContent(html_d8247e2ab7fc332d96a040bf42f52660);
+        
+
+        marker_6c1ce090f9efabd2119097ed1bcc8b2f.bindPopup(popup_be5c82a5eb559163097493084ea26aa0)
+        ;
+
+        
+    
+    
+            var marker_02f3459a18ffe9dbbef48f31c4920760 = L.marker(
+                [40.5010772, 141.4485672],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_3164240e12424d82e45cd8969bc1ca37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_02f3459a18ffe9dbbef48f31c4920760.setIcon(icon_3164240e12424d82e45cd8969bc1ca37);
+        
+    
+        var popup_94f9b6a0111c0af1f474f5610f3c5441 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5408fb79256632f760cb0ca703bd6990 = $(`<div id="html_5408fb79256632f760cb0ca703bd6990" style="width: 100.0%; height: 100.0%;">日本赤十字社青森県支部八戸赤十字病院<br>八戸市大字田面木字中明戸2 39-40</div>`)[0];
+            popup_94f9b6a0111c0af1f474f5610f3c5441.setContent(html_5408fb79256632f760cb0ca703bd6990);
+        
+
+        marker_02f3459a18ffe9dbbef48f31c4920760.bindPopup(popup_94f9b6a0111c0af1f474f5610f3c5441)
+        ;
+
+        
+    
+    
+            var marker_6cb74aa8087607b103a97e17ac28e3b6 = L.marker(
+                [40.49555520000001, 141.4353119],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_45285ad37f6e5cdf5500851b68a3d093 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6cb74aa8087607b103a97e17ac28e3b6.setIcon(icon_45285ad37f6e5cdf5500851b68a3d093);
+        
+    
+        var popup_e979219bb6cfd582bc43e351c0d08ee1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29b77804818bce18e3dd88775099cb77 = $(`<div id="html_29b77804818bce18e3dd88775099cb77" style="width: 100.0%; height: 100.0%;">一般社団法人信愛会さくら病院<br>八戸市大字八幡字上樋田8-1</div>`)[0];
+            popup_e979219bb6cfd582bc43e351c0d08ee1.setContent(html_29b77804818bce18e3dd88775099cb77);
+        
+
+        marker_6cb74aa8087607b103a97e17ac28e3b6.bindPopup(popup_e979219bb6cfd582bc43e351c0d08ee1)
+        ;
+
+        
+    
+    
+            var marker_5c2836d533e291b8517082a09ca1bee1 = L.marker(
+                [40.5170067, 141.4515443],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_99a16350c66da74670361e32bd7d45b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_5c2836d533e291b8517082a09ca1bee1.setIcon(icon_99a16350c66da74670361e32bd7d45b1);
+        
+    
+        var popup_9ed3ee2faa397521a99b865faa04084d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a956fc8bddcaae13118b0ea8c7ba68ca = $(`<div id="html_a956fc8bddcaae13118b0ea8c7ba68ca" style="width: 100.0%; height: 100.0%;">公益社団法人シルバーリハビリテーション協会<br>八戸市大字長苗代字中坪77 41-42</div>`)[0];
+            popup_9ed3ee2faa397521a99b865faa04084d.setContent(html_a956fc8bddcaae13118b0ea8c7ba68ca);
+        
+
+        marker_5c2836d533e291b8517082a09ca1bee1.bindPopup(popup_9ed3ee2faa397521a99b865faa04084d)
+        ;
+
+        
+    
+    
+            var marker_bfc7435ebbac0e3d6625aa7b83073d90 = L.marker(
+                [40.5012017, 141.4544969],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_1c1c5863a4c502652425605c9a3483fc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bfc7435ebbac0e3d6625aa7b83073d90.setIcon(icon_1c1c5863a4c502652425605c9a3483fc);
+        
+    
+        var popup_3fff3d46ebf213a0394ae5fe07a4f885 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_652e83144c92f7ead373ccfb9885067d = $(`<div id="html_652e83144c92f7ead373ccfb9885067d" style="width: 100.0%; height: 100.0%;">医療法人青仁会青南病院<br>八戸市大字田面木字赤坂16-3</div>`)[0];
+            popup_3fff3d46ebf213a0394ae5fe07a4f885.setContent(html_652e83144c92f7ead373ccfb9885067d);
+        
+
+        marker_bfc7435ebbac0e3d6625aa7b83073d90.bindPopup(popup_3fff3d46ebf213a0394ae5fe07a4f885)
+        ;
+
+        
+    
+    
+            var marker_735703012c4e53ce19bcbc4f6f829b3d = L.marker(
+                [40.5068805, 141.4923504],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_2f6ff483b2bf8635e721e3255cc61cc7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_735703012c4e53ce19bcbc4f6f829b3d.setIcon(icon_2f6ff483b2bf8635e721e3255cc61cc7);
+        
+    
+        var popup_ec49f7dd0653cbd8bbc70df14739bee6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4c9de2dda2db84c06b3ad713c5b216f = $(`<div id="html_f4c9de2dda2db84c06b3ad713c5b216f" style="width: 100.0%; height: 100.0%;">医療法人弘仁会於本病院<br>八戸市大工町10</div>`)[0];
+            popup_ec49f7dd0653cbd8bbc70df14739bee6.setContent(html_f4c9de2dda2db84c06b3ad713c5b216f);
+        
+
+        marker_735703012c4e53ce19bcbc4f6f829b3d.bindPopup(popup_ec49f7dd0653cbd8bbc70df14739bee6)
+        ;
+
+        
+    
+    
+            var marker_2995ba942e61cd9305bd54d1e8fec3de = L.marker(
+                [40.5578344, 141.4502985],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_3a95c0563704b7c26358f44e163989c3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_2995ba942e61cd9305bd54d1e8fec3de.setIcon(icon_3a95c0563704b7c26358f44e163989c3);
+        
+    
+        var popup_1354378966ae645ae163836351e1becd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_631526d76cd2d77f573cc3837aa9bed6 = $(`<div id="html_631526d76cd2d77f573cc3837aa9bed6" style="width: 100.0%; height: 100.0%;">医療法人昆仁会圭仁会病院<br>八戸市大字市川町字桔梗野上2-36</div>`)[0];
+            popup_1354378966ae645ae163836351e1becd.setContent(html_631526d76cd2d77f573cc3837aa9bed6);
+        
+
+        marker_2995ba942e61cd9305bd54d1e8fec3de.bindPopup(popup_1354378966ae645ae163836351e1becd)
+        ;
+
+        
+    
+    
+            var marker_f324579978a693fbeaf1e6e376ff8c63 = L.marker(
+                [40.5020322, 141.4828134],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_edd2cb76ca6c4a2593a1e551137df050 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f324579978a693fbeaf1e6e376ff8c63.setIcon(icon_edd2cb76ca6c4a2593a1e551137df050);
+        
+    
+        var popup_89c622f51f560ed3df43144ed01f7c05 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f046869c96eafd533823946980606b3 = $(`<div id="html_1f046869c96eafd533823946980606b3" style="width: 100.0%; height: 100.0%;">室岡整形外科記念病院<br>八戸市長者三丁目3-23 43-44</div>`)[0];
+            popup_89c622f51f560ed3df43144ed01f7c05.setContent(html_1f046869c96eafd533823946980606b3);
+        
+
+        marker_f324579978a693fbeaf1e6e376ff8c63.bindPopup(popup_89c622f51f560ed3df43144ed01f7c05)
+        ;
+
+        
+    
+    
+            var marker_f3eef821567ecab6ff0ab5d2dcf6f3dc = L.marker(
+                [40.5070699, 141.477556],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_5b8277cc3a075ccc65b68f18ea78c0c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f3eef821567ecab6ff0ab5d2dcf6f3dc.setIcon(icon_5b8277cc3a075ccc65b68f18ea78c0c1);
+        
+    
+        var popup_dbf7a264c31606ce75ecb7f898fa8938 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a302a3b00f66412a38aa8cdad87175d8 = $(`<div id="html_a302a3b00f66412a38aa8cdad87175d8" style="width: 100.0%; height: 100.0%;">医療法人仁桂会佐々木泌尿器科病院<br>八戸市根城四丁目6-23</div>`)[0];
+            popup_dbf7a264c31606ce75ecb7f898fa8938.setContent(html_a302a3b00f66412a38aa8cdad87175d8);
+        
+
+        marker_f3eef821567ecab6ff0ab5d2dcf6f3dc.bindPopup(popup_dbf7a264c31606ce75ecb7f898fa8938)
+        ;
+
+        
+    
+    
+            var marker_383345b5ba3fb33fe6c58efc7854a1ac = L.marker(
+                [40.5153878, 141.5061621],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_5ff7c245565a62aba1dedd1f356afc53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_383345b5ba3fb33fe6c58efc7854a1ac.setIcon(icon_5ff7c245565a62aba1dedd1f356afc53);
+        
+    
+        var popup_c2d4113619b2c9eddea4749c806b7d8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4e910eef344894e51ba1b1b64c61831 = $(`<div id="html_b4e910eef344894e51ba1b1b64c61831" style="width: 100.0%; height: 100.0%;">医療法人千隆会岸原病院 <br>八戸市柏崎六丁目29-6</div>`)[0];
+            popup_c2d4113619b2c9eddea4749c806b7d8c.setContent(html_b4e910eef344894e51ba1b1b64c61831);
+        
+
+        marker_383345b5ba3fb33fe6c58efc7854a1ac.bindPopup(popup_c2d4113619b2c9eddea4749c806b7d8c)
+        ;
+
+        
+    
+    
+            var marker_68d81ca3a4341bf75d838fbbc98f64c5 = L.marker(
+                [40.4876865, 141.578233],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_114dab562b73fd168bc246149c774860 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_68d81ca3a4341bf75d838fbbc98f64c5.setIcon(icon_114dab562b73fd168bc246149c774860);
+        
+    
+        var popup_a263fa79ad700dfeb76b7322efa71163 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5dc2884de6d5186bfbf3f6642e831128 = $(`<div id="html_5dc2884de6d5186bfbf3f6642e831128" style="width: 100.0%; height: 100.0%;">医療法人謙昌会総合リハビリ美保野病院 <br>八戸市大字大久保字大山31-2</div>`)[0];
+            popup_a263fa79ad700dfeb76b7322efa71163.setContent(html_5dc2884de6d5186bfbf3f6642e831128);
+        
+
+        marker_68d81ca3a4341bf75d838fbbc98f64c5.bindPopup(popup_a263fa79ad700dfeb76b7322efa71163)
+        ;
+
+        
+    
+    
+            var marker_1a1084d576b8a038cbacc823a10f515c = L.marker(
+                [40.5296881, 141.4807366],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_620b1d69775368e0056417792d7bb82b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_1a1084d576b8a038cbacc823a10f515c.setIcon(icon_620b1d69775368e0056417792d7bb82b);
+        
+    
+        var popup_523cdaeaa52cf3d7bb277b79a5926e75 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_195f61cf07accca5d5e2d2c6caea18a7 = $(`<div id="html_195f61cf07accca5d5e2d2c6caea18a7" style="width: 100.0%; height: 100.0%;">医療法人社団豊仁会八戸城北病院 <br>八戸市石堂一丁目14-14</div>`)[0];
+            popup_523cdaeaa52cf3d7bb277b79a5926e75.setContent(html_195f61cf07accca5d5e2d2c6caea18a7);
+        
+
+        marker_1a1084d576b8a038cbacc823a10f515c.bindPopup(popup_523cdaeaa52cf3d7bb277b79a5926e75)
+        ;
+
+        
+    
+    
+            var marker_4aaa637044564d40c5dd49290f02a930 = L.marker(
+                [40.5038334, 141.5352765],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_2ccfd280de6f68ced2032e342ce3e96a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_4aaa637044564d40c5dd49290f02a930.setIcon(icon_2ccfd280de6f68ced2032e342ce3e96a);
+        
+    
+        var popup_12fec0e493bc94f1058c53c84789cf9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fcbbce18b1aa5919f180ac4b6689923d = $(`<div id="html_fcbbce18b1aa5919f180ac4b6689923d" style="width: 100.0%; height: 100.0%;">医療法人清照会湊病院<br>八戸市大字新井田字松山下野場7-15</div>`)[0];
+            popup_12fec0e493bc94f1058c53c84789cf9a.setContent(html_fcbbce18b1aa5919f180ac4b6689923d);
+        
+
+        marker_4aaa637044564d40c5dd49290f02a930.bindPopup(popup_12fec0e493bc94f1058c53c84789cf9a)
+        ;
+
+        
+    
+    
+            var marker_51ec39d4e71885f155fe140a8d8e8cc5 = L.marker(
+                [40.5177826, 141.5082088],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_b16f9804090e3aee16d2c5205449dc5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_51ec39d4e71885f155fe140a8d8e8cc5.setIcon(icon_b16f9804090e3aee16d2c5205449dc5b);
+        
+    
+        var popup_a3aa77671e3669609b6361f865161aa7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_58c72faa2d45dfd12f844f48f8798f13 = $(`<div id="html_58c72faa2d45dfd12f844f48f8798f13" style="width: 100.0%; height: 100.0%;">医療法人杏林会みちのく記念病院<br>八戸市小中野一丁目4-22</div>`)[0];
+            popup_a3aa77671e3669609b6361f865161aa7.setContent(html_58c72faa2d45dfd12f844f48f8798f13);
+        
+
+        marker_51ec39d4e71885f155fe140a8d8e8cc5.bindPopup(popup_a3aa77671e3669609b6361f865161aa7)
+        ;
+
+        
+    
+    
+            var marker_64098fc5e8fcaa8748929b1a012f0553 = L.marker(
+                [40.5068682, 141.5376774],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_8cc2230549b23d0c9e2cbebcc6927a62 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64098fc5e8fcaa8748929b1a012f0553.setIcon(icon_8cc2230549b23d0c9e2cbebcc6927a62);
+        
+    
+        var popup_5b254853b6863692cd4e469238be606d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_476cba854d710157a3e2e21845a2d059 = $(`<div id="html_476cba854d710157a3e2e21845a2d059" style="width: 100.0%; height: 100.0%;">医療法人平成会八戸平和病院<br>八戸市湊高台二丁目4-6 45-46</div>`)[0];
+            popup_5b254853b6863692cd4e469238be606d.setContent(html_476cba854d710157a3e2e21845a2d059);
+        
+
+        marker_64098fc5e8fcaa8748929b1a012f0553.bindPopup(popup_5b254853b6863692cd4e469238be606d)
+        ;
+
+        
+    
+    
+            var marker_166f5108f6b46e1a2a0ae5deb1e7c1ee = L.marker(
+                [40.4895292, 141.5430956],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_3e3b6d0f4ed0a2713a1b588a6c397a26 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_166f5108f6b46e1a2a0ae5deb1e7c1ee.setIcon(icon_3e3b6d0f4ed0a2713a1b588a6c397a26);
+        
+    
+        var popup_ef7b2a17707f48b8641f488fc20e7d69 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4eb87dad9563083e68cc09b9a8e6d3d = $(`<div id="html_a4eb87dad9563083e68cc09b9a8e6d3d" style="width: 100.0%; height: 100.0%;">社会医療法人松平病院<br>八戸市大字新井田字出口平17</div>`)[0];
+            popup_ef7b2a17707f48b8641f488fc20e7d69.setContent(html_a4eb87dad9563083e68cc09b9a8e6d3d);
+        
+
+        marker_166f5108f6b46e1a2a0ae5deb1e7c1ee.bindPopup(popup_ef7b2a17707f48b8641f488fc20e7d69)
+        ;
+
+        
+    
+    
+            var marker_8729b56715869d150833b10d29f2a55e = L.marker(
+                [40.5000753, 141.5570052],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_1433b5010e1cced2f3be48a3b1fe6bdd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8729b56715869d150833b10d29f2a55e.setIcon(icon_1433b5010e1cced2f3be48a3b1fe6bdd);
+        
+    
+        var popup_1ae1ef422e37146825d6f2a12d3915a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de17ceae13d4ca035f8b9c8e36b3c664 = $(`<div id="html_de17ceae13d4ca035f8b9c8e36b3c664" style="width: 100.0%; height: 100.0%;">東八戸病院<br>八戸市大字大久保字西ノ平25-440</div>`)[0];
+            popup_1ae1ef422e37146825d6f2a12d3915a4.setContent(html_de17ceae13d4ca035f8b9c8e36b3c664);
+        
+
+        marker_8729b56715869d150833b10d29f2a55e.bindPopup(popup_1ae1ef422e37146825d6f2a12d3915a4)
+        ;
+
+        
+    
+    
+            var marker_0102de63c72122ea7fae1a5c9910fa5c = L.marker(
+                [40.4848946, 141.4941722],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_83fb3e4cea1727bf5f6a02c85967d917 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_0102de63c72122ea7fae1a5c9910fa5c.setIcon(icon_83fb3e4cea1727bf5f6a02c85967d917);
+        
+    
+        var popup_ba0b6825fb49639af853aa159fd8fcb8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_96baeca3291d9d1c6e699e9dba409638 = $(`<div id="html_96baeca3291d9d1c6e699e9dba409638" style="width: 100.0%; height: 100.0%;">内科種市病院<br>八戸市大字是川字土間沢1</div>`)[0];
+            popup_ba0b6825fb49639af853aa159fd8fcb8.setContent(html_96baeca3291d9d1c6e699e9dba409638);
+        
+
+        marker_0102de63c72122ea7fae1a5c9910fa5c.bindPopup(popup_ba0b6825fb49639af853aa159fd8fcb8)
+        ;
+
+        
+    
+    
+            var marker_1bba084a2aadc4e6417167384ed1a8d4 = L.marker(
+                [40.5161842, 141.5056016],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_2fe091525e45f3c5abdbe3b8f818c4a8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1bba084a2aadc4e6417167384ed1a8d4.setIcon(icon_2fe091525e45f3c5abdbe3b8f818c4a8);
+        
+    
+        var popup_52415f5dc02afbfd781e2234ce216b07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_22508bf469c453ac1bc282d430dcdbe3 = $(`<div id="html_22508bf469c453ac1bc282d430dcdbe3" style="width: 100.0%; height: 100.0%;">玉井皮膚科医院<br>八戸市柏崎6丁目30-7</div>`)[0];
+            popup_52415f5dc02afbfd781e2234ce216b07.setContent(html_22508bf469c453ac1bc282d430dcdbe3);
+        
+
+        marker_1bba084a2aadc4e6417167384ed1a8d4.bindPopup(popup_52415f5dc02afbfd781e2234ce216b07)
+        ;
+
+        
+    
+    
+            var marker_54313c2ec409f5813b234094a48ce2e7 = L.marker(
+                [40.54016319999999, 141.4759764],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_237edb1dfdba8e0a1d3daf2729e75754 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_54313c2ec409f5813b234094a48ce2e7.setIcon(icon_237edb1dfdba8e0a1d3daf2729e75754);
+        
+    
+        var popup_1f5e47c397e0d2bf27a1a655c05d111e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a31ffa3855af4cea2922ca940ef70af1 = $(`<div id="html_a31ffa3855af4cea2922ca940ef70af1" style="width: 100.0%; height: 100.0%;">きく皮膚科<br>八戸市日計1丁目2-51</div>`)[0];
+            popup_1f5e47c397e0d2bf27a1a655c05d111e.setContent(html_a31ffa3855af4cea2922ca940ef70af1);
+        
+
+        marker_54313c2ec409f5813b234094a48ce2e7.bindPopup(popup_1f5e47c397e0d2bf27a1a655c05d111e)
+        ;
+
+        
+    
+    
+            var marker_00525389bfb812c6c27e7f73854208eb = L.marker(
+                [40.508108, 141.475466],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_5ba9b51c1f6cf73681fe0f29b682ebea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00525389bfb812c6c27e7f73854208eb.setIcon(icon_5ba9b51c1f6cf73681fe0f29b682ebea);
+        
+    
+        var popup_a8e8a020a48f5baa93b88443bbe90a88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cdf636985476408e316b27897915b0d = $(`<div id="html_4cdf636985476408e316b27897915b0d" style="width: 100.0%; height: 100.0%;">境皮膚科医院<br>八戸市売市2丁目3-9</div>`)[0];
+            popup_a8e8a020a48f5baa93b88443bbe90a88.setContent(html_4cdf636985476408e316b27897915b0d);
+        
+
+        marker_00525389bfb812c6c27e7f73854208eb.bindPopup(popup_a8e8a020a48f5baa93b88443bbe90a88)
+        ;
+
+        
+    
+    
+            var marker_55d931a2c3c9e6ed59d30d199a8f70c0 = L.marker(
+                [40.5125746, 141.4950372],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_7f4b98f0fcbe1849804798d1e9d41abe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_55d931a2c3c9e6ed59d30d199a8f70c0.setIcon(icon_7f4b98f0fcbe1849804798d1e9d41abe);
+        
+    
+        var popup_ea5cd260c13740a6ae301834270771b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b19ebad062f1fd3dcdd8c1af3c2f29 = $(`<div id="html_b6b19ebad062f1fd3dcdd8c1af3c2f29" style="width: 100.0%; height: 100.0%;">八戸クリニック皮膚科<br>八戸市柏崎1丁目8-32</div>`)[0];
+            popup_ea5cd260c13740a6ae301834270771b6.setContent(html_b6b19ebad062f1fd3dcdd8c1af3c2f29);
+        
+
+        marker_55d931a2c3c9e6ed59d30d199a8f70c0.bindPopup(popup_ea5cd260c13740a6ae301834270771b6)
+        ;
+
+        
+    
+    
+            var marker_71d0404d3de7e18e7d4e1e5932e84f74 = L.marker(
+                [40.5065179, 141.4809851],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_64382fe0a58d3abee4ec3fb5513ce0bb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_71d0404d3de7e18e7d4e1e5932e84f74.setIcon(icon_64382fe0a58d3abee4ec3fb5513ce0bb);
+        
+    
+        var popup_44fda1260b1fcf83e5f1251c1621d678 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfcf2962afba4c4dd853056bd599f9e7 = $(`<div id="html_cfcf2962afba4c4dd853056bd599f9e7" style="width: 100.0%; height: 100.0%;">北村皮膚科<br>八戸市根城1丁目14-15</div>`)[0];
+            popup_44fda1260b1fcf83e5f1251c1621d678.setContent(html_cfcf2962afba4c4dd853056bd599f9e7);
+        
+
+        marker_71d0404d3de7e18e7d4e1e5932e84f74.bindPopup(popup_44fda1260b1fcf83e5f1251c1621d678)
+        ;
+
+        
+    
+    
+            var marker_5c12375d539583b0f906755724b58808 = L.marker(
+                [40.5027577, 141.5051472],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_02c977e6e1bfe25a972173bd005b39b2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5c12375d539583b0f906755724b58808.setIcon(icon_02c977e6e1bfe25a972173bd005b39b2);
+        
+    
+        var popup_d66113846ed9ed39f9ebc0f2697edf4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c9692c3a1c43a0ad9572e2776a459dd = $(`<div id="html_3c9692c3a1c43a0ad9572e2776a459dd" style="width: 100.0%; height: 100.0%;">たんぽぽ皮フ科クリニック<br>八戸市南類家1丁目3-10</div>`)[0];
+            popup_d66113846ed9ed39f9ebc0f2697edf4e.setContent(html_3c9692c3a1c43a0ad9572e2776a459dd);
+        
+
+        marker_5c12375d539583b0f906755724b58808.bindPopup(popup_d66113846ed9ed39f9ebc0f2697edf4e)
+        ;
+
+        
+    
+    
+            var marker_c8de488142ac5f5a98b22a1be81e0b33 = L.marker(
+                [40.5081041, 141.5371597],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_50b99bf1430ac5a3511802b7336dd3e6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c8de488142ac5f5a98b22a1be81e0b33.setIcon(icon_50b99bf1430ac5a3511802b7336dd3e6);
+        
+    
+        var popup_36b470300b94a4da28571d49f9fd9b46 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b46f8e2039c32e99d64b88f786dc8ce = $(`<div id="html_1b46f8e2039c32e99d64b88f786dc8ce" style="width: 100.0%; height: 100.0%;">湊高台皮膚科<br>八戸市湊高台5丁目20-16</div>`)[0];
+            popup_36b470300b94a4da28571d49f9fd9b46.setContent(html_1b46f8e2039c32e99d64b88f786dc8ce);
+        
+
+        marker_c8de488142ac5f5a98b22a1be81e0b33.bindPopup(popup_36b470300b94a4da28571d49f9fd9b46)
+        ;
+
+        
+    
+    
+            var marker_ed0b2a7fba874197d5dbc7f9815c64fd = L.marker(
+                [40.4889812, 141.5035358],
+                {}
+            ).addTo(map_01210ed7d65222e55775f4306bdfe5e2);
+        
+    
+            var icon_d8b8d13d25120122fb8a4239de58b0fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ed0b2a7fba874197d5dbc7f9815c64fd.setIcon(icon_d8b8d13d25120122fb8a4239de58b0fa);
+        
+    
+        var popup_4428f55de81abe5924a7b89d58cfd944 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d8d9277ce2e0ca973fbb2263c1db8c28 = $(`<div id="html_d8d9277ce2e0ca973fbb2263c1db8c28" style="width: 100.0%; height: 100.0%;">たむかい皮ふ科<br>八戸市田向4丁目17-28</div>`)[0];
+            popup_4428f55de81abe5924a7b89d58cfd944.setContent(html_d8d9277ce2e0ca973fbb2263c1db8c28);
+        
+
+        marker_ed0b2a7fba874197d5dbc7f9815c64fd.bindPopup(popup_4428f55de81abe5924a7b89d58cfd944)
+        ;
+
+        
+    
+</script>
+</html>
